@@ -1,0 +1,72 @@
+Zomato Data Analysis
+Analyze restaurant and customer trends in Bangalore through the Zomato dataset, using Python, pandas, and data visualizations.
+
+Project Overview
+This project explores patterns in Zomato’s Bangalore restaurant data to answer key business questions on food preferences, user ratings, spending trends, and service choices. Insights are presented with clear, high-quality visualizations.
+
+Dataset
+Source: Zomato Bangalore Dataset (CSV)
+
+Content: Restaurant names, ratings, votes, services (online order/table booking), cuisine, location, and cost data.
+
+Installation
+Clone or Download the repository and the dataset.
+
+Install Dependencies:
+
+text
+pip install pandas numpy matplotlib seaborn
+Open the Zomato_Data_Analysis.ipynb notebook in Jupyter Notebook or Google Colab.
+
+Usage
+Place the CSV file in the expected working directory (as referenced in the notebook).
+
+Run each cell sequentially to load, clean, and analyze the data.
+
+View the plots and insights in the notebook output cells.
+
+Features and Steps
+Data Cleaning: Handles missing values, preprocesses the dataset for analysis.
+
+Votes Analysis: Identifies restaurants with the most and least customer engagement.
+
+Online Order Patterns: Visualizes which restaurants support online ordering.
+
+Ratings Distribution: Plots histograms and countplots to uncover rating trends.
+
+Pricing Insights: Examines cost distributions and spending trends.
+
+Heatmap Analysis: Uses pivot tables and heatmaps to find service and listing correlations.
+
+Results
+Highlights top and bottom restaurants by votes and ratings.
+
+Shows city-wide preferences for online ordering and table bookings.
+
+Visualizes pricing segmentation and cuisine popularity.
+
+Supports business and culinary decision-making with data-backed insights.
+
+Structure
+Zomato_Data_Analysis.ipynb: Jupyter notebook with code and outputs.
+
+Zomato-data-.csv: Raw data (not included, source must be credited if distributed).
+
+Dependencies
+Python 3.7+
+
+pandas
+
+numpy
+
+matplotlib
+
+seaborn
+
+Credits
+Dataset: Zomato Bangalore (available on Kaggle)
+
+Libraries: pandas, matplotlib, seaborn, numpy
+
+For questions or feedback, open an issue in this repository or contact the maintainer.
+
